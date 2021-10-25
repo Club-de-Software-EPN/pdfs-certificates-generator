@@ -1,0 +1,36 @@
+{
+  "name": "pdfs-certificates-generator",
+  "version": "1.0.0",
+  "description": "Generate certificates (.pdfs) using an html template and send that pdfs on user emails after reading a csv file.",
+  "main": "src/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Club-de-Software-EPN/pdfs-certificates-generator.git"
+  },
+  "keywords": [
+    "ts",
+    "club",
+    "pdf",
+    "software",
+    "epn",
+    "email",
+    "node",
+    "javascript"
+  ],
+  "author": "Alejandro Llanganate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Club-de-Software-EPN/pdfs-certificates-generator/issues"
+  },
+  "homepage": "https://github.com/Club-de-Software-EPN/pdfs-certificates-generator#readme",
+  "devDependencies": {
+    "ts-node": "^10.4.0"
+  },
+  "dependencies": {
+    "html-pdf": "^3.0.1",
+    "typescript": "^4.4.4"
+  }
+}
